@@ -213,7 +213,7 @@ def stats(df, city, month, day):
         \tMost common: {common_year_birth}")
 
 
-def main():
+if __name__ == "__main__":
     while True:
         city, month, day = user_input()
         data = load_data(city)
@@ -225,7 +225,3 @@ def main():
             restart = input("please answer with 'yes' or 'no'")
         if restart.lower() != 'yes':
             break
-
-
-if __name__ == "__main__":
-    main()
