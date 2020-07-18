@@ -5,7 +5,7 @@
 bikeshare
 
 ### Description
-Describe what your project is about and what it does
+In this project, I used data from a bike share company, to find some useful bike share usage patterns.
 
 ### Files used
 Include the files used
