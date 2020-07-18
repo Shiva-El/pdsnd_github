@@ -224,7 +224,6 @@ def main():
         while restart.lower() not in ['yes', 'no']:
             restart = input("please answer with 'yes' or 'no'")
         if restart.lower() != 'yes':
-            print('..................(◣_◢)......................')
             break
 
 
